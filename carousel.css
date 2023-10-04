@@ -1,24 +1,26 @@
-body {
-  display: flex;
+
+.carrusel-section {
+  display:flex;
+  position:relative;
+  overflow:hidden;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  margin: 0;
+  padding:20px;
 }
 
 .contenedor-carrusel {
   overflow: hidden;
   width: 1000px;
   height: 200px;
-  position: absolute;
-
+  position: relative;
 }
 
 .carrusel {
   display: flex;
   transform: translateX(-1000px);
   transition: transform 0.5s ease-in-out;
-  height: 200px
+
+
 }
 
 .imagen {
@@ -31,8 +33,12 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
-    color: white;
+    background-color: transparent;
+    color: black;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 200px;
+    color:gray;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -52,5 +58,3 @@ body {
   transform: scale(1.2);
   z-index: 1;
 }
-
-

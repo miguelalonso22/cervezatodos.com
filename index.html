@@ -4,74 +4,81 @@
     <meta charset="UTF-8">
     <title>Mi Sitio Web</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="carrusel.css">
+    <link rel="stylesheet" href="carousel.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar navbar-custom navbar-fixed-top">
         <div class="nav-element">Elemento 1</div>
         <div class="nav-element">Elemento 2</div>
-        <div class="nav-logo">LOGO</div>
+			<img class="nav-logo" src="./images/Logo_WT.png" alt="Logo">
         <div class="nav-element">Elemento 3</div>
         <div class="nav-element">Elemento 4</div>
     </nav>
-    <header class="header">
+    <section class="home-section">
     <video autoplay muted loop class="header-video">
-        <source src="video.mp4" type="video/mp4">
+        <source src="./videos/video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
         <h1 class="main-title">Título</h1>
         <button class="header-button">Botón</button>
-    </header>
+	</section>
 	<section class="introduction">
-		<img class="square-image" src="image.jpg" alt="Imagen de introducción">
+		<img class="square-image" src="./images/image.jpg" alt="Imagen de introducción">
 		<div class="text-container">
 		    <h2>Título de Introducción</h2>
 		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
 		</div>
 	</section>
 	<section class="content-selector">
-		<div class="square" style="background-image: url('image1.jpg');"></div>
-		<div class="square" style="background-image: url('image2.jpg');"></div>
-		<div class="square" style="background-image: url('image3.jpg');"></div>
-		<div class="square" style="background-image: url('image4.jpg');"></div>
-		<div class="square" style="background-image: url('image5.jpg');"></div>
+		<div class="square" style="background-image: url('./images/content-selector/cont_1.jpg');"></div>
+		<div class="square" style="background-image: url('./images/content-selector/cont_2.jpg');"></div>
+		<div class="square" style="background-image: url('./images/content-selector/cont_3.jpg');"></div>
+		<div class="square" style="background-image: url('./images/content-selector/cont_4.jpg');"></div>
+		<div class="square" style="background-image: url('./images/content-selector/cont_5.jpg');"></div>
 	</section>
 	<section class="carrusel-section">
 		<div class="contenedor-carrusel">
 		<div id="carrusel" class="carrusel">
-		  <img src="img1.jpg" class="imagen" alt="Imagen 1">
-		  <img src="img2.jpg" class="imagen" alt="Imagen 2">
-		  <img src="img3.jpg" class="imagen" alt="Imagen 3">
-		  <img src="img4.jpg" class="imagen" alt="Imagen 4">
-		  <img src="img5.jpg" class="imagen" alt="Imagen 5">
-		  
-		  <img src="img1.jpg" class="imagen" alt="Imagen 1">
-		  <img src="img2.jpg" class="imagen" alt="Imagen 2">
-		  <img src="img3.jpg" class="imagen activa" alt="Imagen 3">
-		  <img src="img4.jpg" class="imagen" alt="Imagen 4">
-		  <img src="img5.jpg" class="imagen" alt="Imagen 5">
-		  
-		  <img src="img1.jpg" class="imagen" alt="Imagen 1">
-		  <img src="img2.jpg" class="imagen" alt="Imagen 2">
-		  <img src="img3.jpg" class="imagen" alt="Imagen 3">
-		  <img src="img4.jpg" class="imagen" alt="Imagen 4">
-		  <img src="img5.jpg" class="imagen" alt="Imagen 5">
+		  <img src="./images/carousel/Soda-Can-Mockup_1.png" class="imagen" alt="Imagen 1">
+		  <img src="./images/carousel/Soda-Can-Mockup_2.png" class="imagen" alt="Imagen 2">
+		  <img src="./images/carousel/Soda-Can-Mockup_3.png" class="imagen" alt="Imagen 3">
+		  <img src="./images/carousel/Soda-Can-Mockup_4.png" class="imagen" alt="Imagen 4">
+		  <img src="./images/carousel/Soda-Can-Mockup_5.png" class="imagen" alt="Imagen 5">
+
+		  <img src="./images/carousel/Soda-Can-Mockup_1.png" class="imagen" alt="Imagen 1">
+		  <img src="./images/carousel/Soda-Can-Mockup_2.png" class="imagen" alt="Imagen 2">
+		  <img src="./images/carousel/Soda-Can-Mockup_3.png" class="imagen activa" alt="Imagen 3">
+		  <img src="./images/carousel/Soda-Can-Mockup_4.png" class="imagen" alt="Imagen 4">
+		  <img src="./images/carousel/Soda-Can-Mockup_5.png" class="imagen" alt="Imagen 5">
+
+		  <img src="./images/carousel/Soda-Can-Mockup_1.png" class="imagen" alt="Imagen 1">
+		  <img src="./images/carousel/Soda-Can-Mockup_2.png" class="imagen" alt="Imagen 2">
+		  <img src="./images/carousel/Soda-Can-Mockup_3.png" class="imagen" alt="Imagen 3">
+		  <img src="./images/carousel/Soda-Can-Mockup_4.png" class="imagen" alt="Imagen 4">
+		  <img src="./images/carousel/Soda-Can-Mockup_5.png" class="imagen" alt="Imagen 5">
 
 		</div>
 <button id="prev" class="carousel-button carousel-button-prev">&lt;</button>
 <button id="next" class="carousel-button carousel-button-next">&gt;</button>
 </div>
 	</section>  
+
 	<section class="additional-text">
 		<div class="text-container">
+			<h2>Título de Descripción</h2>
 		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
 		</div>
-		<img class="square-image" src="image.jpg" alt="Imagen adicional">
+		<img class="square-image" src="./images/image.jpg" alt="Imagen adicional">
 	</section>
     <footer class="footer">
         <p>Información de contacto...</p>
     </footer>
-  	<script src="main.js"></script>
+	<script src="assets/lib/jquery/dist/jquery.js"></script>
+  	<script src="carousel.js"></script>
+	<script src="navbar.js"></script>
 </body>
 </html>
 
